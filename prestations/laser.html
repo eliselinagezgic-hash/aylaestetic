@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Laser d’épilation définitive | Ayla Esthetic</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="../style.css">
+
+  <style>
+    /* Pour ce laser.html seulement */
+     /* HERO */
+      .laser-hero {
+      background: #fdf8f5;
+      color: #3a2a25;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .laser-hero h1 {
+      font-family:'Parisienne', cursive;
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      margin-bottom: 20px;
+    }
+    .laser-hero p {
+      max-width: 700px;
+      margin: 0 auto 30px auto;
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+    .laser-hero img {
+      max-width: 400px;
+      width: 90%;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin: 40px 0;
+}
+
+.gallery .photo {
+  background: #f6efe9;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery .photo img {
+  max-width: 100%;
+  max-height: 420px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}
+    /* CONTENU */
+    .service-detail {
+      max-width:900px;
+      margin:40px auto;
+      padding:0 20px;
+    }
+    .service-detail h3 {
+      margin-top:25px;
+      margin-bottom:10px;
+      color:#3a2a25;
+    }
+    .service-detail p, .service-detail ul {
+      margin-bottom:15px;
+      line-height:1.6;
+      color:#3a2a25;
+    }
+
+   /* Galerie propre, responsive et sans chevauchement */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin: 40px 0;
+}
+
+.gallery .photo {
+  background: #f6efe9;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* empêche le contenu de dépasser */
+}
+
+.gallery .photo img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+
+    @media (max-width:768px) {
+      .gallery .photo { width: 100%; }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HEADER / MENU identique à index.html -->
+<div class="hero">
+  <div class="hero-top" style="background:#3a2a25; padding:15px 25px; border-radius:10px;">
+    <h1 class="logo">Ayla Esthetic</h1>
+    <nav class="hero-nav">
+      <a href="../index.html#about">À propos</a>
+      <a href="../index.html#services">Prestations</a>
+      <a href="../index.html#team">L’experte</a>
+      <a href="../index.html#reviews">Avis</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<!-- HERO Laser -->
+<div class="laser-hero">
+  <h1>Laser d’épilation définitive</h1>
+  <p>Le Deep Light Hybrid Alexandrite est une technologie laser avancée utilisée en médecine esthétique, principalement pour l’épilation définitive, mais aussi pour certains traitements cutanés ciblés. Elle repose sur le principe du laser Alexandrite, reconnu pour son efficacité et sa précision.</p>
+  <img src="images/lasermachine.jpg" alt="Machine de laser">
+</div>
+
+<!-- CONTENU DÉTAILLÉ -->
+<section class="service-detail" style="max-width:900px; margin:40px auto; padding:0 20px;">
+  <h3>Comment ça fonctionne ?</h3>
+  <p>Le laser Alexandrite émet une longueur d’onde spécifique (environ 755 nm) qui est particulièrement absorbée par la mélanine présente dans le poil. Cette absorption permet de chauffer et détruire le follicule pileux de manière ciblée, tout en préservant la peau environnante. Cette technologie est donc très efficace sur les peaux claires et les poils foncés.</p>
+
+  <h3>Que signifie « Hybrid » ?</h3>
+  <p>Le terme « Hybrid » indique que la technologie a été optimisée pour offrir une plus grande polyvalence et sécurité. Selon le système utilisé, cela peut inclure :</p>
+  <ul>
+    <p>L’association de plusieurs longueurs d’onde ou modes de lumière, pour traiter différents types de peau et de poils.</p> 
+    <p>Des technologies de refroidissement ou d’émission améliorées, rendant les séances plus confortables et sûres.</p>
+    <p>Une adaptation plus large à différents types de peau, élargissant les possibilités par rapport aux lasers Alexandrite traditionnels.</p>
+  </ul>
+
+  <h3>Quels sont les avantages ?</h3>
+  <ul>
+    <li>Efficacité rapide : destruction ciblée des follicules pour des résultats durables.</li>
+    <li>Confort et sécurité : systèmes hybrides réduisant la douleur et les risques.</li>
+    <li>Polyvalence : adaptée à différents types de peau et zones du corps.</li>
+  </ul>
+
+  <h3>Conseils & restrictions</h3>
+  <ul>
+    <li>Éviter la cire, l’épilation électrique ou tout rasage agressif avant la séance.</li>
+    <li>Ne pas utiliser de machines d’épilation domestiques type Philips.</li>
+    <li>Venir chaque mois jusqu’au résultat souhaité.</li>
+    <li>Hydrater la peau et éviter le soleil après la séance.</li>
+    <li>Signaler tout problème hormonal (SOPK, etc.) à votre experte.</li>
+  </ul>
+
+  <h3>FAQ – Questions fréquentes</h3>
+  <ul>
+    <li><strong>Combien de temps pour un résultat définitif ?</strong> Plusieurs séances mensuelles sont nécessaires.</li>
+    <li><strong>Peut-on utiliser le rasoir ou la cire après les séances?</strong> Le rasoir, la cire et l’électrique sont à éviter autant que possible (mise à part le maillot).</li>
+    <li><strong>Est-ce douloureux ?</strong> Le système hybride réduit l’inconfort.</li>
+    <li><strong>Que faire en cas de problème hormonal ?</strong> Informez votre experte pour adapter le protocole.</li>
+  </ul>
+
+  <!-- Galerie Avant/Après -->
+  <div class="gallery">
+      <div class="photo"><img src="images/laser1.jpg" alt="Laser1"></div>
+      <div class="photo"><img src="images/laser2.jpg" alt="Laser2"></div>
+  </div>
+
+  <!-- Bouton rendez-vous -->
+  <a class="btn" href="https://www.planity.com/ayla-esthetic-57800-freyming-merlebach" target="_blank">Prendre rendez-vous</a>
+</section>
+
+<!-- FOOTER identique à index -->
+<footer style="text-align:center; padding:30px; background:#f3ece7; color:#5a3a4c;">
+  <p>© 2026 Ayla Esthetic – Tous droits réservés</p>
+</footer>
+
+</body>
+</html>

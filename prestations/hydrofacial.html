@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Hydrofacial | Ayla Esthetic</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="../style.css">
+
+  <style>
+    /* HERO */
+    .laser-hero {
+      background: #fdf8f5;
+      color: #3a2a25;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .laser-hero h1 {
+      font-family:'Parisienne', cursive;
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      margin-bottom: 20px;
+    }
+    .laser-hero p {
+      max-width: 700px;
+      margin: 0 auto 30px auto;
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+    .laser-hero img {
+      max-width: 400px;
+      width: 90%;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    /* CONTENU */
+    .service-detail {
+      max-width:900px;
+      margin:40px auto;
+      padding:0 20px;
+    }
+    .service-detail h3 {
+      margin-top:25px;
+      margin-bottom:10px;
+      color:#3a2a25;
+    }
+    .service-detail p, .service-detail ul {
+      margin-bottom:15px;
+      line-height:1.6;
+      color:#3a2a25;
+    }
+
+    /* Galerie */
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin: 30px 0;
+    }
+    .gallery .photo {
+      flex: 1 1 45%;
+      max-width: 45%;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .gallery .photo img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Bouton */
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: #c048c0;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .btn:hover {
+      background-color: #a020a0;
+    }
+
+    /* FAQ uniforme */
+    .faq h3 {
+      margin-bottom: 15px;
+    }
+    .faq ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .faq li {
+      margin-bottom: 12px;
+    }
+    .faq li strong {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    @media (max-width:768px){
+      .gallery .photo { max-width: 100%; flex: 1 1 100%; }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HEADER / MENU -->
+<div class="hero">
+  <div class="hero-top" style="background:#3a2a25; padding:15px 25px; border-radius:10px;">
+    <h1 class="logo">Ayla Esthetic</h1>
+    <nav class="hero-nav">
+      <a href="../index.html#about">À propos</a>
+      <a href="../index.html#services">Prestations</a>
+      <a href="../index.html#team">L’experte</a>
+      <a href="../index.html#reviews">Avis</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<!-- HERO Hydrofacial -->
+<div class="laser-hero">
+  <h1>Hydrofacial</h1>
+  <p>Un soin du visage complet et non invasif pour nettoyer, exfolier et hydrater votre peau en profondeur.</p>
+</div>
+
+<!-- CONTENU DÉTAILLÉ -->
+<section class="service-detail">
+
+  <h3>Comment ça fonctionne ?</h3>
+  <p>
+    L’Hydrofacial utilise une technologie de succion et d’infusion d’actifs qui nettoie la peau en profondeur, élimine les impuretés et hydrate simultanément. 
+    Ce soin est doux, non invasif, et adapté à tous les types de peau.
+  </p>
+
+  <h3>Quels sont les avantages ?</h3>
+  <ul>
+    <li>Nettoyage en profondeur et désincrustation des pores</li>
+    <li>Hydratation intense et immédiate</li>
+    <li>Amélioration de l’éclat et de la texture de la peau</li>
+    <li>Convient à tous les types de peau</li>
+    <li>Peau visiblement plus lisse et rafraîchie</li>
+  </ul>
+
+  <!-- FAQ avant les photos -->
+  <div class="faq">
+    <h3>FAQ - Questions fréquentes</h3>
+    <ul>
+      <li>
+        <strong>Est-ce douloureux ?</strong>
+        Le soin est totalement indolore, une sensation douce de succion peut être ressentie.
+      </li>
+      <li>
+        <strong>Combien de séances sont nécessaires ?</strong>
+        Pour des résultats optimaux, 3 à 5 séances espacées de 3 à 4 semaines sont recommandées.
+      </li>
+      <li>
+        <strong>Peut-on appliquer du maquillage après le soin ?</strong>
+        Il est conseillé d’attendre 24h pour laisser la peau absorber pleinement les actifs.
+      </li>
+      <li>
+        <strong>À quelle fréquence refaire le soin ?</strong>
+        Une séance toutes les 4 à 6 semaines permet de maintenir l’éclat et l’hydratation.
+      </li>
+    </ul>
+  </div>
+
+  <h3>Conseils & précautions</h3>
+  <ul>
+    <li>Éviter les soins agressifs avant et après la séance</li>
+    <li>Hydrater la peau régulièrement après le soin</li>
+    <li>Protéger la peau du soleil</li>
+    <li>Éviter les gommages ou exfoliations pendant 48h</li>
+  </ul>
+
+  <h3>Résultats</h3>
+  <div class="gallery">
+    <div class="photo"><img src="images/hydrofacial1.jpg" alt="Hydrofacial 1"></div>
+    <div class="photo"><img src="images/hydrofacial2.jpg" alt="Hydrofacial 2"></div>
+  </div>
+
+  <!-- Bouton rendez-vous -->
+  <a class="btn" href="https://www.planity.com/ayla-esthetic-57800-freyming-merlebach" target="_blank">
+    Prendre rendez-vous
+  </a>
+
+</section>
+
+<!-- FOOTER -->
+<footer style="text-align:center; padding:30px; background:#f3ece7; color:#5a3a4c;">
+  <p>© 2026 Ayla Esthetic – Tous droits réservés</p>
+</footer>
+
+</body>
+</html>

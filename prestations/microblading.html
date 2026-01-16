@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Microblading & Microshading | Ayla Esthetic</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="../style.css">
+
+  <style>
+    /* HERO */
+    .laser-hero {
+      background: #fdf8f5;
+      color: #3a2a25;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .laser-hero h1 {
+      font-family:'Parisienne', cursive;
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      margin-bottom: 20px;
+    }
+    .laser-hero p {
+      max-width: 700px;
+      margin: 0 auto 30px auto;
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+    .laser-hero img {
+      max-width: 400px;
+      width: 90%;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* CONTENU */
+    .service-detail {
+      max-width:900px;
+      margin:40px auto;
+      padding:0 20px;
+      color:#3a2a25;
+    }
+    .service-detail h3 {
+      margin-top:25px;
+      margin-bottom:10px;
+    }
+    .service-detail p, .service-detail ul {
+      margin-bottom:15px;
+      line-height:1.6;
+    }
+
+    /* GALERIE */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      margin: 40px 0;
+    }
+    .gallery .photo {
+      background: #f6efe9;
+      border-radius: 15px;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .gallery .photo img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 10px;
+      display: block;
+    }
+
+    /* Bouton */
+    .btn {
+      display: inline-block;
+      padding: 14px 32px;
+      background-color: #c048c0;
+      color: white;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      text-align: center;
+      margin-top: 25px;
+    }
+    .btn:hover {
+      background-color: #a020a0;
+    }
+
+    /* FAQ */
+    .faq {
+      margin-top: 40px;
+    }
+    .faq h3 {
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+    .faq ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .faq li {
+      margin-bottom: 12px;
+    }
+    .faq li strong {
+      display: block;
+      margin-bottom: 5px;
+      color: #3a2a25;
+    }
+
+    @media (max-width:768px){
+      .gallery .photo { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER / MENU -->
+<div class="hero">
+  <div class="hero-top" style="background:#3a2a25; padding:15px 25px; border-radius:10px;">
+    <h1 class="logo">Ayla Esthetic</h1>
+    <nav class="hero-nav">
+      <a href="../index.html#about">À propos</a>
+      <a href="../index.html#services">Prestations</a>
+      <a href="../index.html#team">L’experte</a>
+      <a href="../index.html#reviews">Avis</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<!-- HERO Microblading / Microshading -->
+<div class="laser-hero">
+  <h1>Microblading & Microshading</h1>
+  <p>Techniques semi-permanentes pour sublimer vos sourcils : dessiner des poils naturels (Microblading) ou un effet poudré plus structuré (Microshading).</p>
+  <img src="../image/microblading.jpg" alt="Microblading & Microshading Ayla Esthetic">
+</div>
+
+<!-- CONTENU DÉTAILLÉ -->
+<section class="service-detail">
+
+  <h3>Microblading</h3>
+  <p>Le Microblading consiste à créer de fines lignes pour reproduire les poils naturels du sourcil. C’est idéal pour combler les zones clairsemées et obtenir un rendu harmonieux et durable.</p>
+
+  <h3>Microshading</h3>
+  <p>Le Microshading utilise une technique de pigmentation douce pour créer un effet poudré, structuré et uniforme, tout en conservant un aspect naturel. Cette méthode permet de donner plus de densité et de volume aux sourcils.</p>
+
+  <h3>Avantages</h3>
+  <ul>
+    <li>Résultat naturel et semi-permanent</li>
+    <li>Restaure la densité et la forme des sourcils</li>
+    <li>Effet durable plusieurs semaines</li>
+    <li>Techniques adaptées à tous types de sourcils</li>
+    <li>Peut corriger les asymétries et zones clairsemées</li>
+  </ul>
+  
+<!-- FAQ -->
+  <div class="faq">
+    <h3>FAQ - Questions fréquentes</h3>
+    <ul>
+      <li>
+        <strong>Est-ce douloureux ?</strong>
+        Un léger inconfort peut survenir, mais un anesthésiant local est appliqué pour garantir un maximum de confort.
+      </li>
+      <li>
+        <strong>Combien de temps dure le résultat ?</strong>
+        En moyenne 3 à 6 semaines pour la phase initiale, puis retouche possible pour un effet durable plusieurs mois.
+      </li>
+      <li>
+        <strong>Peut-on corriger les erreurs ?</strong>
+        Oui, des retouches sont possibles après cicatrisation pour ajuster la forme ou l’intensité de la couleur.
+      </li>
+      <li>
+        <strong>Qui peut bénéficier du Microblading ou Microshading ?</strong>
+        Toutes les personnes souhaitant des sourcils plus fournis et harmonieux, sans allergies aux pigments.
+      </li>
+    </ul>
+  </div>
+  
+<h3>Résultats</h3>
+  <!-- Galerie Avant/Après -->
+  <div class="gallery">
+    <div class="photo"><img src="images/microblading.jpg" alt="Microblading 1"></div>
+    <div class="photo"><img src="images/microshading.jpg" alt="Microshading 2"></div>
+  </div>
+
+  <!-- Bouton rendez-vous -->
+  <a class="btn" href="https://www.planity.com/ayla-esthetic-57800-freyming-merlebach" target="_blank">
+    Prendre rendez-vous
+  </a>
+
+
+</section>
+
+<!-- FOOTER -->
+<footer style="text-align:center; padding:30px; background:#f3ece7; color:#5a3a4c;">
+  <p>© 2026 Ayla Esthetic – Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
